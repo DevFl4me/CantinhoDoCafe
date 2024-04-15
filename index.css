@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Coffeyto;
+    src: url(/fonts/coffeyto.ttf);
+}
+@font-face {
+    font-family:Coffe;
+    src: url(/fonts/Coffee\ Shop\ Bold_Trial\ Version.ttf);
+}
+*{
+    font-family: Coffeyto;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100vh;
+    background-color: #FAF7F2;
+}
+
+/* INICIO HEADER */
+header{
+    display: flex;
+    width: 100%;
+    height: 700px;
+}
+#font-text{
+    font-family: Coffeyto;
+    font-size: 60px;
+}
+#cafezinho{
+    font-family: Coffe;
+    font-size: 80px;
+}
+#nadaMelhor{
+    font-size: 60px;
+}
+.hover-on:hover{
+    border-top:solid 5px rgb(148, 93, 41) ;
+    color: rgb(185, 130, 46);
+    margin: 0;
+    padding: 0;
+}
+a{
+    margin-top: 20px;
+    height: 4px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500px;
+}
+#texto-img{
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+}
+/* FIM HEADER */
