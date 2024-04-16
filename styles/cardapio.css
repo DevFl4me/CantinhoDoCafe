@@ -30,6 +30,16 @@ main{
     font-family: FastCoffee;
     font-size: 100px;
 }
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 80px;
+}
+.hover-on:hover{
+  color: rgb(143, 107, 65);
+   
+    
+}
 /* Produtos */
 .buttonsModal{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
@@ -38,4 +48,22 @@ main{
     height: 40px;
     border: none;
     border-radius:5px ;
+    background-color: rgb(255, 228, 196)
+}
+.buttonsModal:hover{
+    background-color: rgba(255, 228, 196, 0.692)
+}
+.tansparent{
+    background-color: rgb(182, 129, 86); 
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgb(153, 111, 84);
+}
+/*  */
+#copy{
+    font-size: 100px;
+}
+footer{
+    border-top: solid 2px rgb(119, 79, 41);
+    box-shadow: 4px 4px 4px 4px black;
+    margin-top: 20px;
 }
