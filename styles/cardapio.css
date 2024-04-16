@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Coffeyto;
+    src: url(/fonts/coffeyto.ttf);
+}
+@font-face {
+    font-family:Coffe;
+    src: url(/fonts/Coffee\ Shop\ Bold_Trial\ Version.ttf);
+}
+@font-face {
+    font-family:FastCoffee;
+    src:url(/fonts/FastCoffee-Italic.otf);
+}
+*{
+    font-family: Coffeyto;
+    margin: 0%;
+    padding: 0%;
+   
+}
+body{
+    height: 100vh;
+    background-color:rgb(182, 129, 86);
+}
+main{
+    height: 100%;
+}
+#carousel-container{
+    height: 600px;
+}
+#text-title{
+    font-family: FastCoffee;
+    font-size: 100px;
+}
+/* Produtos */
+.buttonsModal{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius:5px ;
+}

@@ -6,6 +6,7 @@
     font-family:Coffe;
     src: url(/fonts/Coffee\ Shop\ Bold_Trial\ Version.ttf);
 }
+
 *{
     font-family: Coffeyto;
     margin: 0%;
@@ -14,6 +15,7 @@
 body{
     height: 100vh;
     overflow: hidden;
+    background-color:rgb(182, 129, 86); 
 }
 
 /* INICIO HEADER */
